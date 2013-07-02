@@ -5,6 +5,6 @@ XCode projects.  To use this language definition, you need to add the jar to you
 PMD/CPD classpath and provide a --language directive indicating that you are scanning
 Objective-C code.  Here is a command line example:
 
-java -Xmx512m -classpath asm-3.1.jar:jaxen-1.1.1.jar:pmd-4.2.5.jar:ObjCLanguage-0.0.1-SNAPSHOT.jar net.sourceforge.pmd.cpd.CPD --minimum-tokens 100 --files [Path to XCode project classes] --language ObjectiveC --encoding UTF-8 --format net.sourceforge.pmd.cpd.XMLRenderer
+java -Xmx512m -classpath pmd-4.2.5.jar:ObjCLanguage-0.0.8-SNAPSHOT.jar net.sourceforge.pmd.cpd.CPD --minimum-tokens 100 --files [Path to XCode project classes] --language ObjectiveC --encoding UTF-8 --format net.sourceforge.pmd.cpd.XMLRenderer
 
 <http://pmd.sourceforge.net/cpd.html>
