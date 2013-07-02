@@ -4,7 +4,7 @@
 
   <groupId>com.deadmeta4.cpd</groupId>
   <artifactId>ObjCLanguage</artifactId>
-  <version>0.0.7-SNAPSHOT</version>
+  <version>0.0.8-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <properties>
@@ -14,9 +14,9 @@
 
   <dependencies>
       <dependency>
-    	<groupId>pmd</groupId>
+    	<groupId>net.sourceforge.pmd</groupId>
     	<artifactId>pmd</artifactId>
-    	<version>4.2.5</version>
+    	<version>5.0.4</version>
     	<scope>compile</scope>
 	</dependency>
   </dependencies>
